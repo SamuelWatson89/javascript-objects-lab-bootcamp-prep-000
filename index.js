@@ -17,5 +17,5 @@ function deleteFromObjectByKey (recipes, cake){
   
   delete newCake[cake]
   
-  return recipes
+  return newCake
 }
