@@ -8,6 +8,4 @@ function updateObjectWithKeyAndValue(recipes, cake, flour){
 
 function destructivelyUpdateObjectWithKeyAndValue(recipe, cake, flour) {
   recipes[cake] = 'flour'
-  
-  return recipes
 }
