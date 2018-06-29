@@ -7,6 +7,6 @@ function updateObjectWithKeyAndValue(recipes, cake, flour){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(recipe, Ccke, flour) {
-  delete recipes.cake
+  delete recipes[cake]
   return recipes
 }
