@@ -2,7 +2,7 @@ var recipes = {
   
 }
 
-function updateObjectWithKeyAndValue(recipes, key, value){
-  return Object.assign({}, recipes, { [duck]: skin })
+function updateObjectWithKeyAndValue(recipes, banana, peel){
+  return Object.assign({}, recipes, { [banana]: peel })
 }
 
