@@ -19,3 +19,7 @@ function deleteFromObjectByKey (recipes, cake){
   
   return newCake
 }
+
+function destructivelyDeleteFromObjecyByKey(recipes, cake){
+  return delete recipies.cake
+}
