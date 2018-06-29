@@ -6,7 +6,6 @@ function updateObjectWithKeyAndValue(recipes, cake, flour){
   return Object.assign({}, recipes, { [cake]: flour })
 }
 
-function destructivelyUpdateObjectWithKeyAndValue(recipe, cake, flour) {
-  delete recipes[cake]
-  return recipes
+function destructivelyUpdateObjectWithKeyAndValue(recipe, custard, egg) {
+  recipes[custard] = egg
 }
