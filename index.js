@@ -8,4 +8,6 @@ function updateObjectWithKeyAndValue(recipes, cake, flour){
 
 function destructivelyUpdateObjectWithKeyAndValue(recipe, custard, egg) {
   recipes[custard] = egg
+  
+  return recipes
 }
